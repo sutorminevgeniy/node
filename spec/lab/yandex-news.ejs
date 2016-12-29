@@ -1,0 +1,7 @@
+<h3><%= count %> Результат поиска по <%= category %></h3>
+<dl>
+  <% news.entries.forEach(function(item){ %>
+    <dt><a href="<%- item.link %>"><%- item.title %></a></dt>
+    <dd><%- item.contentSnippet %></dd>  
+  <% }); %>
+</dl>
