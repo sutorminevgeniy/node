@@ -1,0 +1,11 @@
+doctype
+html
+ head
+  title="JADE test"
+  script(src='/socket.io/socket.io.js')
+  script(src='client.js')
+body
+  #controls
+    label#txt(style='display:block') Напиши сообщение
+    input#input(style='width:350px')
+    input#submit(type='button', value='Послать')
