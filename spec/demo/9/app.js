@@ -12,4 +12,4 @@ app.set('view engine', conf.get('app-engine'));
 app.get('/testlog', function(req, res){
   log.info('Hello from log');
   res.end('TEST LOG');
-});
+}); 
