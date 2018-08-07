@@ -1,0 +1,1912 @@
+Vladimir Deminenko
+[8:46 PM]
+Всем привет!
+У меня вебинар стартует через три дня ))
+А у вас?
+
+[8:47]
+Ау-у-у, есть кто живой?
+
+Eugene Sholz [8:52 PM]
+Вроде же сегодня тестовая встреча?
+
+
+Vladimir Deminenko
+[8:54 PM]
+Да, по ссылке перешёл - ждать три дня.
+
+Sergey Zelenov [8:55 PM]
+всем привет! пробуйте подключиться
+
+Sergey Arefyev [8:55 PM]
+Привет. При попытке получить доступ к Dropbox, после отправки почты, 500ая ошибка на learn.javascript.ru.
+
+Vladimir Deminenko
+[8:56 PM]
+Сергей, как подключиться?
+У меня только одна ссылка, по которой предлагается подождать до 28-го.
+
+Sergey Zelenov [8:56 PM]
+просто перезагрузите страничку - все должно быть хорошо
+
+Eugene Sholz [8:57 PM]
+подключился
+
+Sergey Zelenov [8:57 PM]
+Сергей, а попробуйте еще раз и пришлите, пожалуйста, requestId
+
+[8:57]
+если будет ошибка
+
+[8:57]
+я по логам посмотрю
+
+Vladimir Deminenko
+[8:57 PM]
+2178418789450714893
+
+Eugene Sholz [8:58 PM]
+Вы молчите или у меня звука нет?
+
+Sergey Arefyev [8:58 PM]
+RequestId: 90970a78-b738-4470-821c-9c9fd40f74d0
+
+Sergey Zelenov [8:58 PM]
+Зайдите на http://gotowebinar.com, нажмите "JOIN A WEBINAR" справа-сверху и введите:
+
+Webinar ID: 868801275
+gotomeeting.com
+Webinar and Online Conference | GoToWebinar
+Present to hundreds with confidence and attend a webinar from anywhere. See why GoToWebinar is rated #1 in customer satisfaction.
+
+[8:59]
+email - не ваш реальный, а ваш_ник@javascript.ru
+
+[8:59]
+пока не начал - ждем подключения
+
+[8:59]
+всех участников
+
+[8:59]
+Сергей, спасибо!
+
+Eugene Sholz [9:00 PM]
+Я просто сейчас на 10-15 минут отойду, надеюсь ничего важного не пропущу
+
+Denni Adam [9:01 PM]
+Всем привет!
+
+Sergey Arefyev [9:01 PM]
+Уведомление получил
+
+Denni Adam [9:01 PM]
+Вижу удаленный раб стол, но не вижу, что бы там был живой чат
+
+Vladimir Deminenko
+[9:01 PM]
+Видео работает, инструктора не слышу, только голос дамы по английски прозвучал о скором начале.
+
+[9:02]
+Картинка статическая- страница NodeJS, без звука.
+
+Sergey Zelenov [9:02 PM]
+видео пока на паузе
+
+[9:02]
+звука тоже нет
+
+[9:02]
+сейчас решим все проблемы с подключением - и начнем!
+
+Denni Adam [9:02 PM]
+а можно звук включить для проверки?
+
+Vladimir Deminenko
+[9:02 PM]
+Хорошо, спасибо.
+
+Denni Adam [9:03 PM]
+Сергей, как к дропбоксу подключиться?
+
+Maxim Konkin [9:03 PM]
+Всем привет, покдлючился, написал в чат)
+
+Sergey Zelenov [9:03 PM]
+@denni_adam в инструкции по настройке окружения в личном кабинете есть ссылка
+
+[9:03]
+для автоматического шаринга дропбокса
+
+Alexandr Pozdnyakof [9:04 PM]
+привет чат
+
+Sergey Zelenov [9:06 PM]
+так, ну что, ни у кого проблем нет с подключением?
+
+[9:06]
+все подключились успешно?
+
+Alexandr Pozdnyakof [9:07 PM]
+у меня ок
+
+Denni Adam [9:07 PM]
+слышно +
+
+[9:07]
+экран статичный
+
+Vladimir Deminenko
+[9:07 PM]
+Спасибо, всё хорошо.
+
+Denni Adam [9:07 PM]
+о, норм
+
+Maxim Konkin [9:08 PM]
+Слышно
+
+andrey [9:11 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+Eugene Sholz [9:14 PM]
+я тут, но звука нет
+
+Denni Adam [9:14 PM]
+Когда в ноде сделают import ?
+
+[9:14]
+слышно!
+
+Stas Chernenko [9:14 PM]
+звук хорошо
+
+Eugene Sholz [9:15 PM]
+странно, у меня почему-то нету
+
+Denni Adam [9:15 PM]
+Спасибо за ответ!
+
+[9:15]
+Супер!
+
+[9:16]
+Было бы супер!
+
+Eugene Sholz [9:16 PM]
+Не подскажите почему звука нет, блин
+
+Sergey Zelenov [9:16 PM]
+@jeckyhit попробуйте перезапустить трансляцию
+
+Eugene Sholz [9:17 PM]
+хорошо
+
+[9:18]
+а все
+
+Maxim Konkin [9:18 PM]
+пока все ясно)
+
+Sergey Arefyev [9:19 PM]
+svn
+
+Vladimir Deminenko
+[9:19 PM]
+Создал новый публичный проект на GitHub.
+Я могу там размещать наш код?
+
+Eugene Sholz [9:20 PM]
+при попытке перейти по ссылке dropbox, ошибку у вас на сайте выдает "Ошибка на сервере
+500"
+
+[9:22]
+RequestId: 43a96b80-6dc6-4380-bda8-3ba45e83c5b1
+
+Alexandr Pozdnyakof [9:22 PM]
+ага так же
+
+Denni Adam [9:22 PM]
+Не вижу вашу папку
+
+Alexandr Pozdnyakof [9:22 PM]
+RequestId: bc1b5ea7-df37-40d8-bb43-8400e36a8353
+
+Denni Adam [9:25 PM]
+Через сайт, я у вас свою папку вижу
+
+Alexandr Pozdnyakof [9:31 PM]
+я скачал iCal файл с расписанием, там занятия по субботам в час ночи) это ошибка, верно?
+
+[9:31]
+александр)
+
+Denni Adam [9:32 PM]
+Хотелось бы по работе с  sql-базами узнать, какие ОРМ можно использовать?
+
+Alexandr Pozdnyakof [9:32 PM]
+да, наверное дело в этом
+
+Vladimir Deminenko
+[9:33 PM]
+С MongoDB разобрался, с Redis - установил под Windows, как сервис.
+Что с ним делать не знаю ))
+
+andrey [9:34 PM]
+как dropbox почините, напишите
+
+Eugene Sholz [9:34 PM]
+Спасибо!
+
+Alexandr Pozdnyakof [9:34 PM]
+спасибо вам
+
+Sergey Arefyev [9:34 PM]
+Спасибо
+
+Maxim Konkin [9:34 PM]
+пока, спасибо (edited)
+
+Vladimir Deminenko
+[9:34 PM]
+Спасибо, до встречи!
+
+Eugene Sholz [9:36 PM]
+А ведь к 28 никакого дз нету?
+
+andrey [9:36 PM]
+поставить и настроить рабочее окружение )
+
+Stas Chernenko [9:36 PM]
+на сайте redis The Redis project does not officially support Windows :slightly_smiling_face:
+
+1 reply 10 days ago View thread
+
+Eugene Sholz [9:39 PM]
+А вообще тут у кого какой опыт с js? А то чувствую мне тяжко будет, ибо получилось так, что около года работал с C#(unity/asp/xamarin), около 1 месяца назад занялся плотно JS (+ небольшой опыт с ним до этого был).
+
+Sergey Zelenov [9:40 PM]
+как же нет? выпуски скринкаста, с 1 по 24 :slightly_smiling_face:
+
+Sergei Novikov [9:52 PM]
+@sergeyzelenov Добрый день!
+к сожалению сегодня опаздал. Правильно ли я понял, что уже проверка трансляции закончилась?
+
+Eugene Sholz [9:56 PM]
+@tyrweq  да
+
+Sergei Novikov [9:57 PM]
+@jeckyhit ок. Спасибо
+
+Vladimir Deminenko
+[10:53 PM]
+dropbox - "Ошибка на сервере 500".
+RequestId: 330d98b6-3c9a-4f52-b4e2-0b4c2cd427cc (edited)
+
+Алексей Кучеров [11:37 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+Sergei Novikov [11:59 PM]
+@sergeyzelenov
+Для информации.
+Как и некоторые другие участники столкнулся с проблемой c доступом к Вашему каталогу в dropbox:
+Ошибка на cервере 500.
+RequestId: a40b0734-fe66-4508-aad5-858db397d30c
+
+
+
+----- April 26th -----
+Sergey Zelenov [9:58 AM]
+всем привет!
+
+[9:59]
+скажите, пожалуйста, те, кто со мной расшарил папку с нашей встречи — вы это сделали через наш сайт, или руками, через дропбокс?
+
+Sergey Zelenov [10:04 AM]
+тем, кто еще не успел расшарить - попробуйте, пожалуйста, сегодня - проблема должна быть устранена
+
+Vladimir Deminenko
+[12:12 PM]
+Пытался пару раз сегодня, пока ничего не изменилось.
+
+Sergey Zelenov [12:34 PM]
+ок, а можете последний requestId прислать?
+
+Vladimir Deminenko
+[12:37 PM]
+Только что:
+RequestId: b724672e-1f33-4412-87ee-b6eb7e72a85c
+
+Denys Lymarenko [4:37 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+Vladimir Deminenko
+[9:16 PM]
+С dropbox ничего не изменилось.
+RequestId: 01b32839-b75a-481b-b5d3-2c1e6b442016
+
+Eugene Sholz [9:59 PM]
+а мне вроде Сергей скинул доступ, теперь папка "sergey-selenov" появилась
+
+Vladimir Deminenko
+[10:06 PM]
+Eugene, а папки других участников Вы видите?
+
+Eugene Sholz [10:15 PM]
+@vladimir_deminenko К сожалению нет
+
+Vladimir Deminenko
+[10:16 PM]
+Думаю, это не проблема, просто эти папки пока не созданы ))
+
+Eugene Sholz [10:19 PM]
+@vladimir_deminenko надеюсь)
+
+
+Sergey Zelenov [11:29 PM]
+привет! нет, папки других участников вам не видны
+
+[11:29]
+ну если только другие участники с вами ее на расшарили :slightly_smiling_face:
+
+[11:34]
+я написал письмо в поддержку дропбокса - будем ждать от них ответа
+
+[11:34]
+сейчас сделаю рассылку - предлагаю вам расшарить со мной папку руками
+
+Vladimir Deminenko
+[11:39 PM]
+:+1:
+
+
+----- April 27th -----
+Sergey Zelenov [12:42 AM]
+сделал рассылку, продублирую на всякий случай сюда:
+вы можете либо на сайте дропбокса, либо через их приложение на компьютере расшарить со мной свою папку. расшаривать надо с аккаунтом *nodejs-20170428-2100@jsteach.ru*
+
+
+Vladimir Deminenko
+[1:08 AM]
+Сергей, спасибо - расшарил.
+
+[1:10]
+Друзья, вы все можете просматривать мою папку по ссылке
+https://www.dropbox.com/sh/5n0seqryf9fords/AAAHcNXZQlKSVyEyXWFu_3kXa?dl=0
+Dropbox
+vladimir.deminenko
+Shared with Dropbox
+
+
+Konstantin Vytyagov [10:45 AM]
+joined nodejs-20170428-2100 by invitation from @iliakan, along with @antonboksha
+
+Sergey Zelenov [12:40 PM]
+@vladimir_deminenko :thumbsup:
+
+Illarion Glebov [1:38 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan, along with @svetlana_prudnikova, @oliver.voron
+
+
+----- April 28th -----
+Alexandr Pozdnyakof [1:14 PM]
+привет всем, занятие сегодня по расписанию в 21:00 (+3)?
+
+Sergey Zelenov [1:16 PM]
+привет! да, все по плану
+
+Alexandr Pozdnyakof [1:20 PM]
+спасибо)
+
+Stanislav Khovanov [2:40 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan, along with @nazzarkevich, @alexey
+
+Alexey Drozdov [8:08 PM]
+тоже проблема с dropbox
+RequestId: e0c67354-96ad-482f-877c-fc5d82a40f92
+
+Sergey Zelenov [8:36 PM]
+@alexey расшарьте, пожалуйста, руками с адресом nodejs-20170428-2100@jsteach.ru
+
+Sergey Zelenov [8:48 PM]
+всем привет еще раз!
+уже можно подключаться к видео, начинаем чуть позже, в 9 по Москве
+
+Vladimir Deminenko
+[8:49 PM]
+Первый готов ))
+
+Stanislav Khovanov [8:50 PM]
+uploaded and commented on this image: Screenshot_10.png
+1 Comment
+При запросе доступа к Dropbox курса выдает такое :))
+
+Denys Lymarenko [8:51 PM]
+Всем привет!
+
+Anton Podgornyj [8:51 PM]
+привет
+
+Vladimir Deminenko
+[8:51 PM]
+Stanislav, расшарьте, пожалуйста, руками с адресом nodejs-20170428-2100@jsteach.ru
+
+Stanislav Khovanov [8:52 PM]
+чего расшарить? это доступ к папке курса
+
+Sergey Zelenov [8:52 PM]
+Станислав уже расшарил, я расшарил в ответ - так что доступ уже должен быть :slightly_smiling_face:
+
+[8:52]
+проверьте - моя папка должна у вас появиться
+
+Stanislav Khovanov [8:52 PM]
+секунду
+
+[8:53]
+@sergeyzelenov есть контакт
+
+
+Sergey Zelenov [8:53 PM]
+@cobweb :thumbsup:
+
+Anton Podgornyj [9:01 PM]
++
+
+Vladimir Deminenko
+[9:01 PM]
+ok
+
+Eugene Sholz [9:01 PM]
+все отлично!
+
+Maxim Konkin [9:01 PM]
+Всем привет, все ок
+
+Denys Lymarenko [9:01 PM]
++
+
+Nazar Tkach [9:01 PM]
++
+
+Sergei Novikov [9:01 PM]
++
+
+Nazar Tkach [9:05 PM]
+Линдер?
+
+Sergey Zelenov [9:05 PM]
+linter
+
+[9:06]
+http://eslint.org/
+eslint.org
+ESLint - Pluggable JavaScript linter
+A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
+
+
+Sergei Novikov [9:07 PM]
+пропал звук
+
+[9:07]
+ок
+
+Vladimir Deminenko
+[9:07 PM]
+ok
+
+Konstantin Vytyagov [9:07 PM]
++
+
+Anton Podgornyj [9:07 PM]
++
+
+Sergei Novikov [9:07 PM]
+да
+
+Denni Adam [9:07 PM]
+нет
+
+Eugene Sholz [9:07 PM]
+Все ок
+
+Stanislav Khovanov [9:07 PM]
+ok
+
+Anton Podgornyj [9:07 PM]
+нет
+
+Vladimir Deminenko
+[9:08 PM]
+нет
+
+Denni Adam [9:08 PM]
+звук был
+
+Sergei Novikov [9:08 PM]
+сейчас ок
+
+Nazar Tkach [9:08 PM]
+всьо хорошо
+
+Vladimir Deminenko
+[9:08 PM]
+нет, не пропадал
+
+Eugene Sholz [9:12 PM]
+вот как раз не большой вопрос, а node.js все конструкции es6 поддерживает или нет?
+
+Stanislav Khovanov [9:12 PM]
+ссылку если можно
+
+Sergey Zelenov [9:12 PM]
+https://github.com/google/eslint-config-google
+GitHub
+google/eslint-config-google
+eslint-config-google - ESLint shareable config for the Google JavaScript style guide
+
+
+Maxim Konkin [9:12 PM]
+http://node.green/
+
+По поводу поддержки  es6 в ноде (edited)
+
+Sergey Zelenov [9:13 PM]
+https://github.com/airbnb/javascript
+GitHub
+airbnb/javascript
+javascript - JavaScript Style Guide
+
+
+Sergei Novikov [9:13 PM]
+Вы сами какой используете чаще?
+
+Maxim Konkin [9:15 PM]
+Кстати а почему object spread не сделали еще?
+
+Stanislav Khovanov [9:16 PM]
+spread не входит специф
+
+Egor Fomichev [9:19 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+Anton Podgornyj [9:22 PM]
+нет
+
+andrey [9:23 PM]
+зависнет браузер
+
+Eugene Sholz [9:23 PM]
+ничего, вы ведь не закрыли соединение
+
+Sergei Novikov [9:23 PM]
+пустое окно + подгрузка, так как res.end нет
+
+[9:26]
+listen
+
+[9:26]
+listening
+
+[9:26]
+Врод е помню в скринкасте было
+
+Maxim Konkin [9:27 PM]
+посмотреть доку ноды)
+
+Sergei Novikov [9:27 PM]
+Да
+
+[9:31]
+favicon ico
+
+Eugene Sholz [9:31 PM]
+favicon
+
+Anton Podgornyj [9:31 PM]
+фавикон
+
+Alexandr Pozdnyakof [9:31 PM]
+fav
+
+[9:31]
++
+
+andrey [9:32 PM]
+keep-alive
+
+Anton Podgornyj [9:35 PM]
++
+
+Maxim Konkin [9:35 PM]
++
+
+Eugene Sholz [9:35 PM]
++
+
+[9:36]
+это прям сейчас ?
+
+Denni Adam [9:37 PM]
+Сейчас?
+
+Maxim Konkin [9:37 PM]
+Можно еще раз
+
+Denys Lymarenko [9:37 PM]
+повторите задание плз
+
+Sergey Zelenov [9:37 PM]
+:41
+
+Alexey Drozdov [9:39 PM]
+а пока пауза расскажите, пожалуйста. что делать, чтобы подключить вашу папку? через сайт не подключает, а общение в слаке видимо пропустил..
+
+Sergey Zelenov [9:39 PM]
+nodejs-20170428-2100@jsteach.ru
+
+Alexey Drozdov [9:39 PM]
+моя то папка у вас есть
+а вот вашу, как увидеть?
+
+[9:40]
+фдучунювкщявщм
+
+[9:40]
+alexey.drozdov
+
+[9:40]
+ага, спасибо
+
+Eugene Sholz [9:41 PM]
+вроде уже готово, но кажется не правильно сделал, поспешил
+
+Denni Adam [9:41 PM]
+готово
+
+Maxim Konkin [9:41 PM]
+готово, если я правильно понял задачу
+
+Denni Adam [9:42 PM]
++
+
+[9:43]
+будет искать в node_modules и т.д.
+
+Anton Podgornyj [9:44 PM]
+экспорт дефолт?
+
+Denni Adam [9:44 PM]
+нет
+
+Sergei Novikov [9:44 PM]
+НАдо Path указать вроде
+
+Vladimir Deminenko
+[9:44 PM]
+не могу смотреть и писать (( (edited)
+
+andrey [9:44 PM]
+константу использовать
+
+Sergei Novikov [9:45 PM]
+NODE_PATH
+
+Vladimir Deminenko
+[9:45 PM]
+.
+
+Maxim Konkin [9:46 PM]
+node_modules
+
+Andrey Miskov [9:46 PM]
+В ближайшей node_modules
+
+Anton Podgornyj [9:46 PM]
+в нод модулес
+
+Stas Chernenko [9:46 PM]
+будет смотреть если ли такой встроенный модуль
+
+Sergei Novikov [9:53 PM]
+можно повторить
+
+Vladimir Deminenko
+[9:53 PM]
+Что такое :?
+
+Sergei Novikov [9:53 PM]
+По scripts
+
+Vladimir Deminenko
+[9:54 PM]
+Роль двоеточия в "start"?
+
+[9:55]
+несколько путей?
+
+Sergey Zelenov [9:57 PM]
+https://github.com/remy/nodemon
+GitHub
+remy/nodemon
+nodemon - Monitor for any changes in your node.js application and automatically restart the server - perfect for development
+
+
+Sergei Novikov [9:58 PM]
+debug module
+
+Eugene Sholz [10:00 PM]
+в Visual code тоже неплохой для node дебагер
+
+Denni Adam [10:03 PM]
+консоль покажите (edited)
+
+Vladimir Deminenko
+[10:03 PM]
+В коде можно игнорировать запрос к favicon?
+
+Denni Adam [10:04 PM]
+жестко
+
+Anton Podgornyj [10:04 PM]
+лучше через хром)
+
+Denni Adam [10:05 PM]
+а как-то можно использовать одновременно нодэмон и --инспект?
+
+Sergey Zelenov [10:06 PM]
+https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
+Medium
+Debugging Node.js with Chrome DevTools – Paul Irish – Medium
+New support for Node.js debuggability landed in Node.js
+Reading time
+----------------
+1 min read
+
+(291kB)
+June 24th, 2016 at 6:02 PM
+
+Vladimir Deminenko
+[10:07 PM]
+Сергей, будет понятнее, если Вы будете озвучивать вопрос, на который отвечаете. (edited)
+
+Sergey Zelenov [10:08 PM]
+https://blog.hospodarets.com/nodejs-debugging-in-chrome-devtools
+Serg Hospodarets Blog
+Node.js debugging with Chrome DevTools (in parallel with browser JavaScript)
+Node.js debugging with Chrome DevTools in parallel with browser JavaScript
+
+
+Alexandr Pozdnyakof [10:08 PM]
+Там вроде реланч
+
+Sergei Novikov [10:10 PM]
+libUV
+
+Eugene Sholz [10:10 PM]
+ee?
+
+Sergei Novikov [10:10 PM]
+V8
+
+[10:12]
+setImmediate
+
+Denni Adam [10:12 PM]
+старт
+
+Alexandr Pozdnyakof [10:12 PM]
+Что быстрее завершится
+
+Andrey Miskov [10:13 PM]
+А потом хз...
+
+Denni Adam [10:14 PM]
+синхр
+
+Maxim Konkin [10:14 PM]
+синхронная
+
+Eugene Sholz [10:14 PM]
+синхронная
+
+Egor Fomichev [10:17 PM]
+как определяется, в macro или micro отправляется задача?
+
+
+Vladimir Deminenko
+[10:19 PM]
+immediate?
+
+[10:22]
+если несколько nextTick? (edited)
+
+Denni Adam [10:23 PM]
+Зачем нужен нэкстТик в реальной жизни?
+
+[10:26]
+а чем плохо, что колбэк синхронный а вторая часть асинхронная?
+
+Sergei Novikov [10:30 PM]
+server.listen
+
+Vladimir Deminenko
+[10:37 PM]
+можно использовать connection event?
+
+Anton Podgornyj [10:42 PM]
++
+
+Egor Fomichev [10:43 PM]
+не понятно
+
+Sergei Novikov [10:43 PM]
+мы его вроде
+
+Alexandr Pozdnyakof [10:43 PM]
+Мы его сами инициировали, верно?
+
+Vladimir Deminenko
+[10:43 PM]
+простой
+
+Sergei Novikov [10:43 PM]
+сами вызвали
+
+Vladimir Deminenko
+[10:46 PM]
+повторите первые номера скринкаста
+
+Sergei Novikov [10:49 PM]
+надо подумать
+
+[10:49]
+секунду
+
+Anton Podgornyj [10:50 PM]
+какого числа след занятие? 12?
+
+[10:51]
+ок
+
+Egor Fomichev [10:51 PM]
+вопросы писать в этот чат или общий чат nodejs ?
+
+Sergei Novikov [10:51 PM]
+можно для upload использовать пример с https://learn.javascript.ru/xhr-resume?
+
+[10:52]
+Там и серверная есть часть
+
+[10:52]
+если скачать
+
+[10:52]
+пример вконце
+
+Anton Podgornyj [10:52 PM]
+server.js наверное
+
+Sergei Novikov [10:52 PM]
+там и server.js файл есть
+
+[10:53]
+А где лучше про потоки почитать? Может сайт посоветуете?
+
+Anton Podgornyj [10:53 PM]
+спасибо
+
+Maxim Konkin [10:53 PM]
+спасибо)
+
+Alexandr Pozdnyakof [10:53 PM]
+Спасибо
+
+[10:53]
+Спасибо
+
+Egor Fomichev [10:53 PM]
+где можно будет посмотреть запись этой лекции?
+
+Stanislav Khovanov [10:53 PM]
++
+
+Alexandr Pozdnyakof [10:53 PM]
+Streams handbook есть
+
+Sergei Novikov [10:53 PM]
+Ок спасибо
+
+Egor Fomichev [10:54 PM]
+спасибо!
+
+Stanislav Khovanov [10:54 PM]
+Спасибо
+
+Nazar Tkach [11:15 PM]
+Люди, кто круглый ноль в Node.JS, прошу писать даже самые банальние вопросы, чтоб интереснее было разбираться :) (edited)
+
+Vladimir Deminenko
+[11:56 PM]
+@eafomi4ev, видео найдёте здесь:
+https://learn.javascript.ru/courses/groups/nodejs-20170428-2100/materials (edited)
+
+[11:57]
+Подпишитесь на уведомления и проверяйте свою почту. (edited)
+
+
+----- April 29th -----
+Vladimir Deminenko
+[1:52 AM]
+*Вопрос:* какой должна быть команда "start" в package.json, чтобы я мог запустить скрипт из корневой папки javascript.ru-nodejs?
+`/javascript.ru-nodejs> npm start`
+
+Текст кода и структура проекта ниже.
+
+*server-count.js*
+```/**
+ * Created by Vladimir Deminenko on 28.04.2017
+ */
+
+const {Server} = require('http');
+let sender = require('server-count.module');
+
+let i = 0;
+
+const server = new Server((req, res) => {
+    i++;
+    sender.sendResponse(res, i);
+});
+
+server.listen(3000);
+console.log('server starts on port 3000');
+
+```
+
+*server-count.module.js*
+```/**
+ * Created by Vladimir Deminenko on 28.04.2017
+ */
+
+let sender = {};
+
+sender.sendResponse = (res, value) => {
+    console.log('sender.sendResponse(res, %s)', value);
+    res.end(value.toString());
+};
+
+module.exports = sender;
+
+```
+
+*package.json*
+```...
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=/dropbox/vladimir.deminenko/modules node server-count.js"
+  },
+...
+```
+(edited)
+
+Vladimir Deminenko
+[2:05 AM]
+uploaded this image: Pasted image at 2017-04-29, 1:04 AM
+Add Comment
+
+Vladimir Deminenko
+[2:33 AM]
+*Разобрался с проблемой.*
+Строка должна выглядеть следующим образом:
+```"start": "set NODE_PATH=./dropbox/vladimir.deminenko/modules; && node ./dropbox/vladimir.deminenko/01_2017-04-28/server-count"```
+
+Vladimir Deminenko
+[2:15 PM]
+Не могу понять, почему при вызове асинхронной функции со значением меньше 10 и попытке передать в callback-функцию Error-object, происходит исключение "callback is not a function".
+Кто-нибудь может объяснить причину этой проблемы? (edited)
+
+Vladimir Deminenko
+[2:18 PM]
+added this JavaScript/JSON snippet
+// В какой момент срабатывают - до или после чтения файла?
+const fs = require('fs');
+​
+/*
+ macrotasks: [immediate, fs.open]
+Add Comment Click to expand inline 78 lines
+
+Vladimir Deminenko
+[2:29 PM]
+uploaded this image: Pasted image at 2017-04-29, 1:29 PM
+Add Comment
+
+Sergey Zelenov [2:47 PM]
+вы получается сразу вызываете cb
+
+[2:48]
+оберните в функцию-стрелку:
+```const asyncFx = (parameter, cb) => {
+    if (typeof cb === 'function') {
+        if (parameter < 10) {
+            process.nextTick(() => cb(new Error('parameter should be greater than 10')));
+        }
+    }
+    else {
+        console.log('*** it will never run ***');
+    }
+
+    setTimeout(cb, 1000);
+};
+
+```
+(edited)
+
+Vladimir Deminenko
+[3:03 PM]
+Сергей, спасибо, сейчас попробую.
+Должен ли я asyncFx() оборачивать в promise? (edited)
+
+Sergey Zelenov [3:33 PM]
+нет, зачем?
+
+Vladimir Deminenko
+[3:35 PM]
+Где-то читал, что асинхронные нужно оборачивать Promise.
+
+[3:37]
+С new Promise() могу поймать ошибку *parameter should be greater than 10*, без него - нет.
+
+[3:38]
+Разумеется, try-catch с асинхронной функцией бесполезен.
+
+Sergey Zelenov [3:54 PM]
+это была окахывается моя ошибка с cb()
+
+[3:54]
+:slightly_smiling_face:
+
+[3:54]
+ну что ж, бывает
+
+Vladimir Deminenko
+[3:54 PM]
+:+1:
+
+Sergey Zelenov [3:54 PM]
+по поводу промисов, мы к ним еще придем - здесь у нас они были больше для того, чтобы определить их место
+
+[3:54]
+в событийном цикле (edited)
+
+[3:55]
+а потом мы и в трай кеч будем промисы оборачивать :slightly_smiling_face:
+
+[3:55]
+и это даже работать будет! :slightly_smiling_face:
+
+Vladimir Deminenko
+[3:55 PM]
+Хорошо.
+
+Sergey Zelenov [3:56 PM]
+а пока ошибки в колбеках ловятся только в них же
+
+[3:56]
+“наружу” они не всплывают
+
+[3:56]
+пока для нас трай кеч - не помощник
+
+Vladimir Deminenko
+[3:56 PM]
+ok
+
+[3:58]
+Хочу поделиться с тем, что у меня получилось.
+Пока не всё понятно, надеюсь, что всё устаканится с бОльшей практикой.
+
+Vladimir Deminenko
+[3:58 PM]
+added this JavaScript/JSON snippet
+// В какой момент срабатывают - до или после чтения файла?
+const fs = require('fs');
+​
+/*
+ macrotasks: [immediate, fs.open]
+Add Comment Click to expand inline 101 lines
+
+
+Sergey Zelenov [4:05 PM]
+@vladimir_deminenko здорово! я думаю, что обязательно полное понимание придет, конечно нужна практика для этого. прямо сейчас нам очень важно понять суть происходящего, а детали придут уже процессе
+
+Vladimir Deminenko
+[4:05 PM]
+ok ))
+
+Vladimir Deminenko
+[4:15 PM]
+uploaded this image: Pasted image at 2017-04-29, 3:15 PM
+Add Comment
+
+Vladimir Deminenko
+[4:43 PM]
+Если ошибок в asyncFx не возникает (изменил условие на *parameter < 2*), то вывод в консоль кажется логичным ))
+
+Vladimir Deminenko
+[4:43 PM]
+uploaded this image: Pasted image at 2017-04-29, 3:43 PM
+Add Comment
+
+
+----- April 30th -----
+Eugene Sholz [6:18 PM]
+Кто-нибудь к домашнему приступал? А полное описание где-то есть, а то немного забыл, что именно надо сделать, а скачивать запись курса сейчас нету возможности
+
+[6:18]
+А все в dropbox нашел описание
+
+Vladimir Deminenko
+[7:00 PM]
+Eugene, задание найдёте у преподавателя в папке 01 - файл homework.
+Смотрите, также, 01/get-post-server-task/index.js
+
+Vitaliy Kononov [9:44 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+Vitaliy Kononov [10:52 PM]
+@sergeyzelenov can't get access to your folder. RequestId: 332b1af7-c4aa-4c53-8203-4cd811edca92
+
+
+----- May 1st -----
+Egor Fomichev [12:22 AM]
+Сергей, подскажите, пожалуйста, как правильно в node производить экспорт модулей?
+
+Vladimir Deminenko
+[1:21 AM]
+Egor, смотрите здесь:
+https://habrahabr.ru/post/217901/
+Хабрахабр
+Node.js, Require и Exports
+Когда я только-только начал играться с Node.js, для меня существовала лишь одна вещь, которая доставляла мне дискомфорт. Занятно, но я говорю сейчас о module...
+
+(edited)
+
+Vladimir Deminenko
+[2:03 AM]
+Ещё один полезный ресурс ))
+https://learn.javascript.ru/modules
+
+Egor Fomichev [9:16 AM]
+Владимир, спасибо! Тогда еще один вопрос: у кого-то в первой лекции был импорт в таком виде: `const {Server}  = require("http");`, зачем Server оборачивать в {} ?
+
+Eugene Sholz [9:36 AM]
+Тот же самый вопрос
+
+Maxim Konkin [10:42 AM]
+Потому что http это обычный объект у которого есть методы. Можно было написать http.Server. Но в es6 можно быстро разбирать объекты через скобки.
+
+
+Sergey Zelenov [12:10 PM]
+по поводу экспортов могу посоветовать выпуски скринкаста еще
+
+[12:10]
+там тоже очень хорошо рассказывается
+http://learn.javascript.ru/screencast/nodejs
+
+[12:10]
+5, 6
+
+[12:11]
+по поводу скобочек - http://learn.javascript.ru/destructuring
+
+
+[12:11]
+они работают не только с объектами
+
+Maxim Konkin [1:10 PM]
+Народ, а напомните, как вынести нод модули из дропбокс папки, пропустил этот момнт.
+
+Sergey Zelenov [1:25 PM]
+просто создайте папку node_modules *на пару папок* выше
+
+[1:26]
+то есть есть дропбокс, например - /Users/username/Dropbox/username
+
+[1:26]
+копируете package.json в /Users/username и устанавливаете там модули
+
+Maxim Konkin [1:28 PM]
+оке, попробую)
+
+Sergey Zelenov [4:19 PM]
+@vitaliy.kononov добрый день, пропустил ваше сообщение
+
+[4:19]
+сейчас должна моя папка появиться (edited)
+
+Denys Lymarenko [6:44 PM]
+А почему `const {Server} = require('http');`
+и потом `new Server((req, res) => {});` - все норм .
+но `import {Server} from 'http';` - `Cannot find name 'Server'`
+разве оно не одно и тоже ссылается?
+и тут логика не понятна
+
+Denys Lymarenko [6:44 PM]
+added this JavaScript/JSON snippet
+const {Server} = require('http');
+const server = new Server((req, res) => {}); // ok
+//
+import {Server} from 'http';
+const server = new Server((req, res) => {}); // - Cannot find name 'Server'
+Add Comment Click to expand inline 13 lines
+
+Sergey Zelenov [6:55 PM]
+в nodejs пока не работают импорты
+
+Denys Lymarenko [6:59 PM]
+хотел с ts поиграться, и я компилю в js
+
+Sergey Zelenov [7:00 PM]
+а, в таком случае там не все просто
+
+[7:00]
+модули тайпскрипта отличаются от модулей ноды и от es6
+
+[7:01]
+используйте лучше require
+
+[7:01]
+ ```import http = require('http');```
+
+
+Denys Lymarenko [7:03 PM]
+отлично, а то хочется подсказки)
+
+Vladimir Deminenko
+[10:16 PM]
+Я тоже решил писать на TypeScript и столкнулся с проблемой.
+Компилятор TypeScript не находит модули и переменные NodeJS, например, *http* и *__dirname*.
+При этом, компилирует в JavaScript корректно, но раздражает наличие ошибок в редакторе IntelliJ IDEA.
+Как можно решить эту проблему?
+
+Vladimir Deminenko
+[10:18 PM]
+uploaded this image: Pasted image at 2017-05-01, 9:17 PM
+Add Comment
+
+Denys Lymarenko [10:26 PM]
+а tsconfig.json файл настроен? и типы для ноды может над загрузить, я так делал, все норм, но не знаю тоже как правильно (edited)
+
+Vladimir Deminenko
+[10:44 PM]
+Денис, а Вы можете свой tsconfig.json выложить?
+
+Denys Lymarenko [10:45 PM]
+https://github.com/LimarenkoDenis/ts-node-boilerplate
+GitHub
+LimarenkoDenis/ts-node-boilerplate
+ts-node-boilerplate
+
+
+Vladimir Deminenko
+[10:45 PM]
+Спасибо, сейчас гляну.
+
+Denys Lymarenko [10:48 PM]
+хотел найти что то типо того что я сделал, легкий скелетон для старта , но особо не нашел
+
+Vladimir Deminenko
+[11:38 PM]
+Денис, Вы не могли бы глянуть мой get-post-server-task проект - не могу его стартовать, т.к.
+```error TS2688: Cannot find type definition file for 'node'.
+server/app.ts(7,21): error TS2307: Cannot find module 'fs'.
+server/app.ts(8,23): error TS2307: Cannot find module 'http'.
+server/app.ts(17,1): error TS2304: Cannot find name 'console'.
+
+```
+Ссылка на DropBox:
+https://www.dropbox.com/sh/5n0seqryf9fords/AAAHcNXZQlKSVyEyXWFu_3kXa?dl=0
+Dropbox
+vladimir.deminenko
+Shared with Dropbox
+
+
+[11:39]
+Возможно, что-то лишнее и важное удалил из Вашей структуры ))
+
+Denys Lymarenko [11:43 PM]
+npm i
+npm run start
+должно все работать
+
+[11:45]
+мне каж вы с package.json по удаляли зависимости
+
+Vladimir Deminenko
+[11:49 PM]
+Основной package.json лежит выше dropbox:
+```{
+  "name": "node-materials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Vladimir Deminenko",
+  "license": "ISC",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "bunyan": "^1.8.5",
+    "clarify": "^2.0.0",
+    "co-busboy": "^1.3.1",
+    "config": "^1.24.0",
+    "es6-promisify": "^4.1.0",
+    "expect": "^1.20.2",
+    "fs-extra": "^0.30.0",
+    "gulp": "*",
+    "gulp-nodemon": "^2.1.0",
+    "juice": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "koa": "^2.0.0-alpha.7",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-csrf": "^3.0.4",
+    "koa-favicon": "^2.0.0",
+    "koa-generic-session": "^1.11.3",
+    "koa-logger": "^2.0.0",
+    "koa-mount": "^1.3.0",
+    "koa-passport": "^3.0.0-rc.3",
+    "koa-router": "^7.0.1",
+    "koa-session-mongoose": "^1.0.0",
+    "koa-static": "^3.0.0",
+    "lodash": "^4.16.6",
+    "mime": "*",
+    "mongoose": "^4.6.0",
+    "mongoose-beautiful-unique-validation": "^5.1.1",
+    "mz": "^2.4.0",
+    "nodemailer": "^2.6.0",
+    "nodemailer-html-to-text": "^2.1.0",
+    "nodemailer-ses-transport": "^1.4.0",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "nodemailer-stub-transport": "^1.1.0",
+    "passport-facebook": "^2.1.1",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta6",
+    "redis": "^2.6.2",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "selenium-webdriver": "*",
+    "should": "*",
+    "socket.io": "^1.4.8",
+    "socket.io-emitter": "^1.0.0",
+    "socket.io-redis": "^1.1.0",
+    "trace": "^2.3.3",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-google": "^0.6.0",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
+
+```
+
+[11:50]
+За основу взял файл Сергея Зеленова, только скрипты разместил отдельно в проектах. (edited)
+
+Denys Lymarenko [11:51 PM]
+сравните с моим, там типов не хватает (edited)
+
+Vladimir Deminenko
+[11:51 PM]
+ок, гляну
+
+[11:52]
+Точно )) Спасибо, сейчас попробую.
+
+Vladimir Deminenko
+[11:58 PM]
+Всё заработало как надо ))
+Денис, спасибо большое!
+
+
+----- May 2nd -----
+Vladimir Deminenko
+[12:25 AM]
+Очередной вопрос: как мне настроить IDE, чтобы сначала компилировался TypeScript, а затем запускалось приложение из *./dist/app.js*?
+
+*package.json*
+```{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "nodemon dist/app.js"
+  }
+}
+```
+(edited)
+
+Vladimir Deminenko
+[12:25 AM]
+uploaded this image: Pasted image at 2017-05-01, 11:25 PM
+Add Comment
+
+Denys Lymarenko [12:33 AM]
+есть пакет для одновременного запуска несеольких команд, тоже у меня можете подглянуть, но я нз насколько там все правильно
+
+Vladimir Deminenko
+[12:34 AM]
+Он (*concurrently*) у меня под Windows 10 не установился. (edited)
+
+[12:38]
+Странно, установился глобально ))
+
+Vladimir Deminenko
+[1:26 AM]
+Пришлось помучиться: теперь запускаю две задачи - одна смотрит за источником и при изменении компилирует его; другая - следит только за *dist/server/app.js* и стартует сервер после каждой компиляции.
+Решением не до конца доволен, надеюсь, со временем, буду лучше разбираться в этих процессах. (edited)
+
+[1:27]
+Теперь, можно и к домашнему заданию приступать ))
+
+Sergey Zelenov [9:11 AM]
+:) а откуда такой интерес к тайпскрипту? Пишете на нем приложения?
+
+Denys Lymarenko [9:14 AM]
+нет), хочется чтоб подсказочки были и легко подсмотреть, что передавать , какие методы и тд
+
+Egor Fomichev [9:16 AM]
+А где можно почитать про загрузку файлов на сервер? Может у кого есть хорошая статья, чтоб не просто код был, а с пояснениями
+
+Egor Fomichev [9:27 AM]
+Разумеется я гуглил перед тем, как задать вопрос. В инете есть инфа, но как-то с разъяснениями не очень. И большинство статей старше трех лет. Мб там поменялось что-то уже за это время. Поэтому, если у кого есть актуальная инфа, то было бы круто почитать ее
+
+Sergey Zelenov [9:44 AM]
+Егор, я, к сожалению, таких не знаю. Я вам советовал бы разобрать код с отдачей файла, который есть в скринкасте, и немного лишь его поменять для приёма файла
+
+[9:44]
+Суть та же самая, req и res - потоки
+
+Sergey Zelenov [10:33 AM]
+То есть вам просто надо поменять местами того, утр отдаёт и кто принимает
+
+[10:33]
+В случае с отдачей файла отдаёт нода с диска, принимает res
+
+[10:34]
+В случае с приемом - принимает нода, пишет на диск, а отдаёт req
+
+Vladimir Deminenko
+[1:37 PM]
+Стараюсь писать, изучаю Angular ))
+Sergey Zelenov
+:) а откуда такой интерес к тайпскрипту? Пишете на нем приложения?
+Posted in #nodejs-20170428-2100May 2nd at 9:11 AM
+
+[1:41]
+Интересная статья про потоки:
+https://medium.com/devschacht/stefan-baumgartner-the-definitive-guide-to-object-streams-in-nodejs-ab983b819eae
+Medium
+Исчерпывающее руководство по объектным потокам в Node.js
+Перевод заметки Stefan Baumgartner: The Definitive Guide to Object Streams in Node.js. Опубликовано с разрешения автора.
+Reading time
+----------------
+11 min read
+
+(24kB)
+May 2nd at 11:01 AM
+
+Sergey Zelenov [4:14 PM]
+да, неплохая статья
+
+[4:14]
+мы с вами пойдем чуть глубже, чтобы окончательно расставить все по местам
+
+[4:14]
+но в целом написано хорошо
+
+Vladimir Deminenko
+[5:23 PM]
+:+1:
+
+Eugene Sholz [8:24 PM]
+А вообще для чтение и записи файлов всегда лучше использовать потоки? тогда в каких случаях пригодится обычный метод чтения и записи из файла без потоков?
+
+Sergey Zelenov [8:30 PM]
+ну, например, при чтении конфигов
+
+Eugene Sholz [8:31 PM]
+А почему тоже самое нельзя будет сделать с потоками ?
+
+Sergey Zelenov [8:31 PM]
+или если вы хотите отдавать ту же саму фавиконку. каждый раз читать ее с диска - неоптимально, лучше держать ее в памяти и отдавать каждый раз оттуда
+
+[8:31]
+вопрос не совсем корректный
+
+[8:31]
+речь не о том, что можно сделать или нельзя
+
+[8:31]
+фактически все операции можно сделать и так, и эдак
+
+[8:31]
+главный вопрос, как правильнее и лучше
+
+[8:32]
+для производительности, для ресурсов
+
+[8:32]
+например, разархивирование 30гб архива
+
+[8:33]
+или отдача фавиконки. в каком случае какой подход даст лучшие результаты?
+
+Eugene Sholz [8:34 PM]
+понял, извиняюсь за нубские вопросы) но порой лучше их задать, что бы не держать их в голове и сомневаться
+
+Sergey Zelenov [8:38 PM]
+да вы что? да это самые правильные и нужные вопросы!
+
+[8:39]
+ни в коем случае они не “нубские” и не “глупые“, они прям в точку!
+
+[8:40]
+так что спасибо вам за них большое. и кроме того, мы на следующем занятии пристально разберем потоки “от и до“, и в том числе ответим на эти вопросы с примерами
+
+Eugene Sholz [8:41 PM]
+Спасибо, это очень хорошо! Ибо очень плохо когда изучил что-то на нормальном уровне, но остались пробелы и потом возникают вопросы
+
+Sergey Arefyev [8:54 PM]
+Есть вопрос про NODE_PATH=.
+Структура каталога:
+proj
+    dir1
+        main.js
+    dir2
+        lib2.js
+    lib1.js
+
+Из директории proj вызываю:
+SET NODE_PATH=. && node dir1/main.js
+
+Как должен выглядеть импорт в main.js?
+Пробовал так:
+const lib1 = require('lib1.js');
+const lib2 = require('dir2/lib2.js');
+
+Sergey Zelenov [8:55 PM]
+2 вариант, `require('dir2/lib2');`
+
+Sergey Arefyev [8:56 PM]
+Cannot find module 'dir2/lib2.js'
+
+Sergey Zelenov [9:01 PM]
+а, и первый должен тоже работать правильно
+
+[9:01]
+так, давайте посмотрим..
+
+Sergey Arefyev [9:01 PM]
+Вот и я так думал)
+
+new messages
+Sergey Arefyev [9:38 PM]
+uploaded and commented on this image: Clip2net_170502213502.png
+1 Comment
+Что я упустил?
+
+Sergey Zelenov [10:01 PM]
+ну выглядит все верно
+
+[10:01]
+пытаюсь сейчас найти windows, чтобы проверить
+
+[10:02]
+@vladimir_deminenko у вас вроде windows, может подскажете, что не так в запускающей команде?
+
+Denys Lymarenko [10:03 PM]
+а нельзя типо модуля path использовать чтоб не зависимо от системы было?
+
+Vladimir Deminenko
+[10:04 PM]
+Не знаю, не пользуюсь cmd. Сейчас смоделирую, гляну.
+
+Vladimir Deminenko
+[10:29 PM]
+Такая же проблема - не найден файл lib1.js
+В процессе отладки ))
+
+Vladimir Deminenko
+[10:42 PM]
+Всё понятно - отсутствует точка с запятой `set NODE_PATH=.;` (edited)
+
+Sergey Arefyev [10:45 PM]
+Спасибо, работает)
+
+Vladimir Deminenko
+[10:45 PM]
+:+1:
+
+Sergey Zelenov [11:00 PM]
+ох!
+
+[11:00]
+спасибо, буду знать
+
+
+----- May 3rd -----
+Vladimir Deminenko
+[1:24 AM]
+Думаю, это команды cmd/bash, поэтому, они должны отделяться друг от друга точкой с запятой. (edited)
+
+Sergey Zelenov [8:53 AM]
+Баш по идее смотрит на перевод строки
+
+[8:54]
+Ну или на энд
+
+[8:54]
+Хотя в виндовс очевидно это не так
+
+Egor Fomichev [9:54 AM]
+Сергей, если я работаю (сохраняю, редактирую файлы) прям в своей папке дропбокса, вас не закидывает уведомлениями о том, что файлы обновились? А то мне все время кажется, что у вас скоро пиксели на мониторе начнут выгорать от постоянного высвечивания всплывающего сообщеия “Файлы изменены”
+
+Sergey Zelenov [10:44 AM]
+здравствуйте! все в порядке
+
+Sergey Zelenov [10:44 AM]
+кстати, вопрос ко всем. как дела с домашним заданием?
+1 reply Today at 1:19 PM View thread
+
+Anton Podgornyj [10:51 AM]
+я только сажусь его делать)
+
+
+Oleg Didkovskyi [11:17 AM]
+Пока сложность только с получением картинки от пользователя и сохранением на диске. Но это в процессе )
+
+Egor Fomichev [11:41 AM]
+Разбираюсь с механизмом заливки файлов на сервер. Раньше с этим не работал, процесс незнаком
+
+Sergei Novikov [11:41 AM]
+Добрый день! Только сегодня освободился. Начинаю изучать материалы и делать задание
+
+Sergey Zelenov [11:50 AM]
+хорошо! задавайте вопросы обязательно
+
+Vladimir Deminenko
+[12:33 PM]
+По поводу *dropbox* и сообщений - есть возможность отключать/включать синхронизацию папок.
+
+Vladimir Deminenko
+[12:45 PM]
+@sergeyzelenov, условие *так как поддиректорий нет, то при наличии / или .. в пути сервер должен выдавать ошибку 400* относится только к запросу на удаление или ко всем запросам?
+
+Sergey Zelenov [12:46 PM]
+@vladimir_deminenko ко всем (edited)
+
+
+Egor Fomichev [12:50 PM]
+Я так понимаю, что можно обрабатывать заливку файла руками, с помощью потоков fs, а можно подключить готовый модуль, который управляет потоками сам, верно?
+К примеру, такой модуль
+https://www.w3schools.com/nodejs/nodejs_uploadfiles.asp
+w3schools.com
+Node.js Upload Files
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.
+
+Sergey Zelenov [12:59 PM]
+задание - сделать это через стандартные потоки nodejs
+
+[12:59]
+из сторонних модулей можно использовать `mime`, чтобы правильный заголовок типа данных установить при отдаче файла
+
+Egor Fomichev [1:00 PM]
+Это да. Я так, на будущее, для расширения кругозора
+
+Vladimir Deminenko
+[1:01 PM]
+Проверил - точка с запятой это разделитель для нескольких команд в одной строке:
+https://www.opennet.ru/docs/RUS/bash_scripting_guide/c301.html
+Sergey Zelenov
+Баш по идее смотрит на перевод строки
+Posted in #nodejs-20170428-2100May 3rd at 8:53 AM
+(edited)
+
+Sergey Zelenov [1:04 PM]
+понял, для разделения команд в одной строке
+
+
+[1:04]
+просто обычно когда скрипты пишешь, о таких штуках не думаешь - каждая команда на своей строке получается автоматически
+
+Egor Fomichev [2:33 PM]
+А такое можно использовать?
+`request.pipe(destinationFile);`
+
+Sergey Zelenov [2:39 PM]
+ну похоже на стандартные возможности nodejs
+
+Сергей Лунев [10:16 PM]
+joined nodejs-20170428-2100 by invitation from @iliakan
+
+
+----- Yesterday May 4th, 2017 -----
+Maxim Konkin [8:31 AM]
+- пишет всё тело запроса в файл files/file.ext и выдаёт ОК
+   - если файл уже есть, то выдаёт ошибку 409
+   - при превышении файлом размера 1MB выдаёт ошибку 413
+
+А нам саму файл нужно сохранят? Я просто пытаюсь присланную картинку сохранить, но чет не очень получается.
+
+Anton Podgornyj [9:17 AM]
+Вроде как надо....И вроде как у меня сохраняется даже
+
+Sergey Zelenov [9:58 AM]
+Вы имеете ввиду надо ли сохранять вообще или при ошибке? вообще - надо, при ошибке не надо
+
+Maxim Konkin [10:15 AM]
+Меня этот пункст смутил пишет всё тело запроса в файл files/file.ext и выдаёт ОК
+
+file.ext это типо лог файла?
+
+Sergey Arefyev [10:40 AM]
+Пример имени файла. Задача в написании файлового сервера же
+
+Sergey Zelenov [10:48 AM]
+ну это сам файл. т.е. вы хотите на сервер загрузить avatar.png, вы его добавляете через форму и отсылаете на сервер
+
+[10:48]
+в результате в папке files должен появиться avatar.png с полным содержимым оригинального файла
+
+Maxim Konkin [11:45 AM]
+Всем спасибо, смутился просто описанием)
+
+Egor Fomichev [6:03 PM]
+а имя файла передватать через заголовок http запроса?
+`xhr.setRequestHeader("X-File-Name", file.name);`
+
+Vladimir Deminenko
+[6:10 PM]
+Егор, если я всё правильно понял - в адресной строке:
+`http://localhost:3000/filename.ext` (edited)
+
+Egor Fomichev [6:14 PM]
+Ааа, окей, спасибо
+
+
+Egor Fomichev [8:29 PM]
+есть вот такая функция для отправки файла
+```function responseFile(filePath, response) {
+  fs.exists(filePath, function(exists) {
+    if (exists) {
+      response.writeHead(200, {
+        'Content-Type': 'application/octet-stream',
+        'Content-Disposition': 'attachment; filename=' + filePath,
+      });
+      fs.createReadStream(filePath).pipe(response);
+    } else {
+      response.writeHead(400, {'Content-Type': 'text/plain'});
+      response.end('ERROR File does NOT Exists');
+    }
+  });
+}```
+
+При ее отработке происходит скачивание файла с нужным именем и расширением, но весит этот файл 0 байт. Что я делаю не так?
+
+Sergey Zelenov [8:50 PM]
+хм, очень странное поведение. в коде есть недочеты, но работать он должен правильно
+
+[8:50]
+а 0 байт любой файл весит?
+
+[8:51]
+не уверен, что вы правильный файл читаете, попробуйте добавить обработчик ошибки
+```fs.createReadStream(filePath).on('error', console.log).pipe(response);
+```
+(edited)
+
+Egor Fomichev [9:01 PM]
+в консоль такое сообщение вывелось
+`Resource interpreted as Document but transferred with MIME type application/octet-stream: "http://localhost:3000/java.pdf".`
+
+[9:03]
+кстати нет, txt файл нормально отдался. А pdf так же весит 0 байт после скачивания
+
+Vladimir Deminenko
+[9:19 PM]
+Странно, я проверил на .pdf - POST сохранил верно, а GET получает только 9 байтов.
+`mime.lookup(path): 'application/pdf'`
+
+С текстом, фото и видео проблем не было. (edited)
+
+Vladimir Deminenko
+[9:33 PM]
+Заработало!
+Задал для .pdf  `'text/plain'`, но, при этом, Chrome не смог загрузить, а на Firefox проблем не возникло.
+Тогда, я поставил  `'application/plain'` - Chrome тоже справился ))
+`res.setHeader('Content-Type', mime.lookup(path).replace(/\/pdf$/, '/plain'));`
+
+Как же правильно, без этих костылей всё сделать? (edited)
+
+Egor Fomichev [10:33 PM]
+Попробовал кросс доменным запросом залить файл на сервер. Файл заливается, размер и имя файла совпадает, но файл не открывается. Он даже в вк не прикрепляется. То есть какой-то битый приходит. В случае корс запросов какая-то дополнительная магия должна быть?
+
+Vladimir Deminenko
+[11:30 PM]
+@eafomi4ev, я разобрался с .pdf файлами: необходимо, также, указывать размер возвращаемого контента - размер файла
+`res.setHeader('Content-Length', contentSize);`
+
+Костыли убрал, всё работает замечательно, в т.ч. и в Chrome ))
+
+
+
+----- Today May 5th, 2017 -----
+Sergei Novikov [1:58 AM]
+@sergeyzelenov Вопрос по поводу домашнего задания: При загрузке файлов с сервера (download). Нужно ли делать так, чтобы браузер предлагал сохранить или открыть файл при нажатии на кнопку "загрузка"? Или же достаточно того, что файл передался и о нем есть информация во вкладке Network в инструментах разработчика?  + там же его можно открыть. (edited)
+
+Sergey Arefyev [8:55 AM]
+@vladimir_deminenko Заголовок 'Content-Length' не использовал, в хроме файл по прямой ссылке открывается/скачивается. Как с pipe и без.
+
+Sergei Novikov [9:15 AM]
+Добрый день! Использовал:
+```let mediaType = mime.lookup(filePath);
+            res.writeHead(200, {
+                'Content-Type': mediaType,
+                'Content-Length': stat.size,
+                'Content-Disposition': ('attachment; filename=' + filePath)
+            });```
+
+Да, файл (проверял jpg, pdf, txt) открывается и скачивается. Но из вкладки Network (инструменты разработчика).
+При этом (при нажатии на кнопку загрузить)  браузер автоматически не предлагает сохранить или открыть файл (во всплывающем prompt-окне). Я поискал ответ на этот вопрос в интернете, а там из вариантов - поменять код на клиенте.  Поэтому и решил вопрос задать. Может и где-то я просто ошибаюсь из-за отсутствия полного понимания реализации закачки. (edited)
+
+Egor Fomichev [9:26 AM]
+@barindwalin я так понимаю, у нас не должно быть прямых ссылок на файл. От клиента в url приходит хост, порт и имя файла. Полный путь к файлу собиарется уже на стороне сервера путем извлечения имени файла из пришедшего url и конкатенации его с путем до папки, где лежит файл. Или я непраивльно понял фразу “прямая ссылка” ?
+
+Sergey Arefyev [9:31 AM]
+Я плохо выразился, полный путь собирает сервер. Имел ввиду если вбить в адрес браузера http://localhost:3000/filename, а не через форму на страничке.
+
+Egor Fomichev [9:33 AM]
+а можно взглянуть на ваш код отправки файла клиенту?
+
+Sergey Arefyev [9:35 AM]
+added and commented on this JavaScript/JSON snippet
+function sendFileWithPipe(filePath, res) {
+ const stream = fs.createReadStream(filePath);
+ const contentType = mime.lookup(filePath);
+​
+ res.setHeader('Content-Type', contentType);
+1 Comment Click to expand inline 25 lines
+Вроде ничего особенного
+
+Sergey Zelenov [12:06 PM]
+@tyrweq а как хотите, на самом деле
+
+[12:06]
+нам не так важны заголовки, как важны потоки
+
+Sergei Novikov [12:13 PM]
+@sergeyzelenov Ок.
+А когда желательно успеть выложить код решения Домашнего Задания?
+Я сделал черновой вариант с GET и POST.
+POST - закачивает на сервер с помощью потоков;
+GET - скачивает с сервера с помощью потоков;
+Сейчас дорабатываю, чтобы более менее выглядело + добавляю обработку ошибок + с DELETE надеюсь успеть разобраться. (edited)
+
+Vladimir Deminenko
+[1:43 PM]
+@barindwalin, ещё раз проверил: *'Content-Length'*, действительно, не обязателен - проблема была в том, что я накосячил в другом месте ))
+Sergey Arefyev
+@vladimir_deminenko Заголовок 'Content-Length' не использовал, в хроме файл по прямой ссылке открывается/скачивается. Как с pipe и без.
+Posted in #nodejs-20170428-2100Today at 8:55 AM
+(edited)
+
+Sergey Zelenov [2:24 PM]
+да как вам удобнее. ну то есть, если вы даже к сегоднящнему занятию не успеете - можно и после него тоже :slightly_smiling_face:
+
+[2:25]
+у нас нет жестких дедлайнов, это больше рекоммендации
+
+Egor Fomichev [2:36 PM]
+uploaded and commented on this image: Pasted image at 2017-05-05, 2:36 PM
+1 Comment
+Я, конечно, извиняюсь за тупой оффтопный вопрос, но он меня поставил в ступор: слетела русская кодировка в консоли webstorm. Вместо русских символов выводится какая-то дичь, даже не кракозябры. В конфигурационных файлах вроде везде utf-8 стоит. Из-за чего все слетело - непонятно.. Кто-нибудь знает, что это вообще за кодировка выводится? Мб кто сталкивался с таким
