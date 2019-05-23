@@ -30,7 +30,7 @@ if (index > -1) {
 
   console.log(mesage);
 }
-// Если запустить  node process -m "Hello world"
+// Если запустить  (node process -m "Hello world")
 //> Hello world
 
 function getValue(flag) {
@@ -43,5 +43,5 @@ const message = getValue('-m') || 'Hello';
 const name = getValue('-n') || 'friend';
 
 console.log(`${message}, ${name}`);
-// Если запустить  node process -m Hello -n Oleg
+// Если запустить  (node process -m Hello -n Oleg)
 //> Hello, Oleg
