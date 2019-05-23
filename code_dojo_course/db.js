@@ -1,5 +1,6 @@
 console.log('db.js');
 
+require('./user');
 const users = require('./users');
 
 function getUsers() {
