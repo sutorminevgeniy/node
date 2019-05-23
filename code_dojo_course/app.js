@@ -3,14 +3,15 @@
 
 // const users = db.getUsers();
 
-const { users, getUsers, User } = require('./db');
-require('./db');
+const { db, User } = require('./db');
 
-const user = new User();
+const users = new db.User();
 
 console.log(users);
 
 // Модули кэшируются
+require('./db');
+
 const User1 = require('./db');
 const User2 = require('./db');
 
