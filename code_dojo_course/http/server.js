@@ -61,5 +61,5 @@ http.createServer((req, res) => {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
       res.end('404 Не найдено');
   }
-}).listen(3000, () => console.log('Сервер работает'));;
+}).listen(3000, () => console.log('Сервер работает'));
 // Запуск сервера http://localhost:3000/ или http://127.0.0.1:3000/
