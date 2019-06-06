@@ -35,7 +35,6 @@ function public(req, res) {
   stream.pipe(res);
   stream.on('error', error => {
     if (error.code === 'ENOENT') {
-      console.log(error);
       res.writeHead(404, { 'Content-Type': 'text/plain' });
       res.end('Not found');
     }
