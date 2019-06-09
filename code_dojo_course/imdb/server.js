@@ -1,6 +1,9 @@
 const http = require('http');
 
+const render = require('./lib/render')
 const { public, home, search, notFound } = require('./routes');
+
+http.ServerResponse.prototype.render = render;
 
 // Создание сервера
 http.createServer((req, res) => {
