@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 Торобоан
+    p Введите слово и узнайте как оно будет наоборот
+
+    form(action='/reverse' method='POST')
+        input(type='text' name='string' required)
+        button(type='submit').button-primary Отправить

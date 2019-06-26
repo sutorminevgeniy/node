@@ -1,0 +1,16 @@
+{
+  "name": "reverse",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "debug": "~2.6.8",
+    "express": "~4.15.3",
+    "pug": "2.0.0-rc.2",
+    "morgan": "~1.8.2",
+    "serve-favicon": "~2.4.3"
+  }
+}
