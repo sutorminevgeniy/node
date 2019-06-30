@@ -1,46 +1,10 @@
-const Sequelize = require('sequelize');
-
-// Настройка соединения с базой
-const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  storage: './database.sqlite'
-});
-
-// Проверка соединения с базой
-sequelize
-  .authenticate()
-  .then(() => {
-    console.log('Connection has been established successfully.');
-  })
-  .catch(err => {
-    console.error('Unable to connect to the database:', err);
-  });
-
-
-// Создание моделей таблицы
-const Model = Sequelize.Model;
-
-class User extends Model {}
-User.init({
-  // attributes
-  firstName: {
-    type: Sequelize.STRING,
-    allowNull: false
-  },
-  lastName: {
-    type: Sequelize.STRING
-    // allowNull defaults to true
-  }
-}, {
-  sequelize,
-  modelName: 'user'
-  // options
-});
+const { User } = require('./db');
 
 // Вывод всех записей
 User.findAll().then(users => {
   console.log("All users:", JSON.stringify(users, null, 4));
 });
+
 
 // Создание новой записи
 User.create({ firstName: "Jane", lastName: "Doe" }).then(jane => {
