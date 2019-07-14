@@ -24,3 +24,5 @@ iisnode
 local_package.csx
 *.cspkg
 .idea
+
+bower_components
