@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>site-v1</title>
+
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+  <script src="/main.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <ul>
+      <li><a href="/">Главная страница</a></li>
+      <li><a href="/uploadfile">Загрузка файла на сервер</a></li>
+      <li><a href="/form">Отправка форм</a></li>
+    </ul>
+  </div>
+
+  <h1>Отправка форм</h1>
+
+  <p>Страница form.html</p>
+
+  <form action="uploadform" method="post" name="uploadform">
+    <!-- Текстовое поле -->
+    <label for="textField">text</label>
+    <br />
+    <input type="text" name="textField" id='test1'>
+    <br />
+
+    <!-- file поле -->
+    <label for="file">file</label>
+    <br />    
+    <input type="file" name="file" id='test2'>
+    <br />
+
+    <!-- Флажок -->
+    <label for="checkboxField">checkbox</label>
+    <br />
+    <input type="checkbox" name="checkbox">
+    <br />
+
+    <!-- Переключатель -->
+    <label for="radioField">radio</label>
+    <br />
+    <input type="radio" name="radio" value="rad1">
+    <input type="radio" name="radio" value="rad2">
+    <br />
+
+    <input type="submit" value="Отправить">
+  </form>
+</body>
+
+</html>
