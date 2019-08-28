@@ -6,8 +6,6 @@
   <title>site-v1</title>
 
   <link rel="stylesheet" type="text/css" href="/style.css">
-
-  <script src="/main.js"></script>
 </head>
 
 <body>
@@ -23,31 +21,31 @@
 
   <p>Страница form.html</p>
 
-  <form action="uploadform" method="post" name="uploadform">
+  <form action="uploadform" enctype="multipart/form-data" method="post" name="uploadform">
     <!-- Текстовое поле -->
-    <label for="textField">text</label>
+    <label for="test1">text</label>
     <br />
     <input type="text" name="textField" id='test1'>
-    <br />
+    <br /><br />
 
     <!-- file поле -->
-    <label for="file">file</label>
+    <label for="test2">file</label>
     <br />    
-    <input type="file" name="file" id='test2'>
-    <br />
+    <input type="file" name="filetoupload" id='test2'>
+    <br /><br />
 
     <!-- Флажок -->
     <label for="checkboxField">checkbox</label>
     <br />
     <input type="checkbox" name="checkbox">
-    <br />
+    <br /><br />
 
     <!-- Переключатель -->
     <label for="radioField">radio</label>
     <br />
     <input type="radio" name="radio" value="rad1">
     <input type="radio" name="radio" value="rad2">
-    <br />
+    <br /><br />
 
     <input type="submit" value="Отправить">
   </form>

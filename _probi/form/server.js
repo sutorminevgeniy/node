@@ -1,6 +1,12 @@
 const http = require('http');
 const url = require('url');
 const path = require('path');
+const querystring = require("querystring");
+const fs = require("fs");
+const os = require("os");
+const util = require('util');
+
+var formidable = require('formidable');
 
 const config = require('./config');
 const handlFile = require('./core/handlFile');
@@ -11,6 +17,9 @@ var server = new http.Server(function (req, res) {
   // Разбор url
   let urlParsed = url.parse(req.url, true);
   let filename = urlParsed.pathname.slice(1); // /file.ext -> file.ext
+
+  // replace this with the location to save uploaded files
+var upload_path = config.filesRoot;
 
   if (req.method === 'GET') {
     if (urlParsed.pathname == '/') {
@@ -37,11 +46,6 @@ var server = new http.Server(function (req, res) {
       // отправка изображений
       handlFile.sendFile('public/img' + urlParsed.pathname, res);
     }
-    else if (urlParsed.pathname == '/echo' && urlParsed.query.message) {
-      // запрос вида http://localhost:3000/echo?message=Hello
-      res.setHeader('Cache-control', 'no-cache');
-      res.end(urlParsed.query.message);
-    }
     else {
       // Обработка оставшихся результатов
       res.statusCode = 404; // Not Found
@@ -51,6 +55,7 @@ var server = new http.Server(function (req, res) {
 
   if (req.method === 'POST') {
     let body = '';
+    let bodyArr = [];
 
     if (!filename) {
       res.statusCode = 404;
@@ -58,26 +63,59 @@ var server = new http.Server(function (req, res) {
     }
 
     if (urlParsed.pathname == '/uploadform') {
-      // Корневая страница отправка файла index.html
-      req
-      .on('data', data => {
-        // запись данных с формы
-        body += data;
-      })
-      .on('end', () => {
-        let dataForm = body.split('&');
+      var form = new formidable.IncomingForm();
 
-        dataForm = dataForm.map(item => {
-          let result = item.split('=');
+      form.parse(req, function (err, fields, files) {
 
-          return {[result[0]]: result[1]};
+        console.log({fields, files});
+        // oldpath : temporary folder to which file is saved to
+        var oldpath = files.filetoupload.path;
+        var newpath = path.join(upload_path, files.filetoupload.name);
+        console.log({oldpath, newpath});
+        
+        // copy the file to a new location
+        fs.rename(oldpath, newpath, function (err) {
+            if (err) throw err;
+            // you may respond with another html page
+            res.writeHead(200, {'content-type': 'text/plain'});
+            res.write('File uploaded and moved!\n\n');
+            res.write('received upload:\n\n');
+            res.end(util.inspect({fields: fields, files: files}));
         });
-
-        // console.log(req);
-        console.log(dataForm);
-
-        res.end(`Form loaded : ${body}`);
       });
+
+      // req
+      // .on('data', data => {
+      //   // запись данных с формы
+      //   body += data;
+      //   bodyArr.push(data);
+      // })
+      // .on('end', () => {
+      //   const dataForm = querystring.parse(body);
+      //   bodyArr = Buffer.concat(bodyArr).toString();
+
+      //   console.log('body _____________________________________________________________');
+      //   console.log(body);
+      //   console.log('dataForm _________________________________________________________');
+      //   console.log(dataForm);
+      //   console.log('bodyArr __________________________________________________________');
+      //   console.log(bodyArr);
+
+      //   if (dataForm.file) {
+      //     console.log(os.tmpdir())
+      //     fs.readFile(path.join(os.tmpdir(), dataForm.file), 'utf-8', (error, data) => {
+      //       if(error) return console.log('Такого файла нет!');
+          
+      //       console.log(data)
+      //     });
+
+      //     // console.log(req.file);
+      //     // handlFile.onloadFile(path.join(config.filesRoot, dataForm.file), req, res);
+      //   }
+
+      //   res.end(`Form loaded : ${body}`);
+        
+      // });
     }
     else if (filename) {
       handlFile.onloadFile(path.join(config.filesRoot, filename), req, res);
